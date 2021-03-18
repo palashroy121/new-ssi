@@ -22,7 +22,7 @@
 
 /* 1. Theme default css */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
- body, main {
+ body {
 	font-family: 'Rubik', sans-serif;
 	font-weight: normal;
 	font-style: normal;
@@ -298,6 +298,11 @@ label {
 .f-btn:hover {
     background: #fff;
     color: #056c5f;
+}
+
+.btn-round {
+    border-radius: 50px;
+    font-size: 22px;
 }
 
 /* Header */
@@ -651,11 +656,114 @@ label {
 .contact-box .contact-box-address::before {
     background: #2ea4ff;
 }
-
 .contact-map iframe {
     width: 100%;
     height: 450px;
     border: 0;
+}
+
+/* Our Mission */
+.our-mission p {
+    font-size: 18px;
+    line-height: 1.9;
+    text-align: justify;
+    padding-right: 60px;
+}
+.our-mission-img img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.our-vision-area .section-title {
+    padding-left: 60px;
+}
+.our-vision p {
+    padding-right: 0;
+    padding-left: 60px;
+}
+
+/* Donate */
+.donate-area {
+    background: url(../img/bg/donate.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    position: relative;
+}
+.donate-area:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.50);
+}
+.donate-box h2 {
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+.donate-box p {
+    font-size: 18px;
+    color: #fff;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+/* Support */
+.who-we-icon {
+    position: relative;
+}
+.who-we-icon::before {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #FCECDC;
+    z-index: -1;
+    border-radius: 100px;
+    left: 15px;
+    top: 5px;
+    transition: .3s;
+}
+.who-we-icon::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #eef5ff;
+    z-index: -1;
+    border-radius: 100px;
+    left: -25px;
+    top: 15px;
+    transition: .3s;
+}
+.who-we:hover .who-we-icon::before {
+    left: 0;
+}
+.who-we:hover .who-we-icon::after {
+    left: -10px;
+}
+.who-we-icon i {
+    font-size: 50px;
+    color: #f96149;
+}
+.who-we-text span {
+    color: #f96149;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.who-we-text h3 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.who-we-text p {
+    line-height: 24px;
+    margin: 0;
 }
 
 /* Footer */
