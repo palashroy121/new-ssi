@@ -547,6 +547,15 @@ label {
     resize: none;
 }
 
+/* Introduction */
+.introduction-text p {
+    font-size: 18px;
+    padding: 0 100px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
 /* Blog */
 .blog-box {
     border-radius: 5px;
@@ -714,55 +723,58 @@ label {
 }
 
 /* Support */
-.who-we-icon {
+.support-icon {
     position: relative;
+    margin-bottom: 15px;
 }
-.who-we-icon::before {
+.support-icon::before {
     content: "";
     position: absolute;
     width: 60px;
     height: 60px;
-    background: #FCECDC;
+    background: rgba(147, 214, 190, 0.3);
     z-index: -1;
     border-radius: 100px;
     left: 15px;
     top: 5px;
     transition: .3s;
 }
-.who-we-icon::after {
+.support-icon::after {
     content: "";
     position: absolute;
     width: 60px;
     height: 60px;
-    background: #eef5ff;
+    background: rgba(10, 187, 122, 0.3);
     z-index: -1;
     border-radius: 100px;
     left: -25px;
     top: 15px;
     transition: .3s;
 }
-.who-we:hover .who-we-icon::before {
+.support-box:hover .support-icon::before {
     left: 0;
 }
-.who-we:hover .who-we-icon::after {
+.support-box:hover .support-icon::after {
     left: -10px;
 }
-.who-we-icon i {
+.support-icon i {
     font-size: 50px;
     color: #f96149;
 }
-.who-we-text span {
+.support-text span {
     color: #f96149;
     font-size: 14px;
     text-transform: uppercase;
 }
-.who-we-text h3 {
+.support-text h3 {
+    color: rgb(37, 89, 70);
     font-size: 24px;
     font-weight: 600;
     line-height: 30px;
+    margin-bottom: 10px;
 }
-.who-we-text p {
-    line-height: 24px;
+.support-text p {
+    line-height: 26px;
     margin: 0;
 }
 
