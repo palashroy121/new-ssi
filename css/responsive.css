@@ -7,12 +7,37 @@
     .slider-active .slick-arrow {
         right: 60px;
     }
+    /* Support */
+    /* .support-icon::after {
+        left: -10px;
+    }
+    .support-box:hover .support-icon::after {
+        left: -5px;
+    } */
 
 }
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
+    /* Menu */
+    .main-menu ul li {
+        margin: 0 8px;
+    }
+    /* Slider */
+    .slider-content {
+        left: 61px;
+    }
+    .slider-active .slick-arrow {
+        right: 60px;
+    }
+    .slider-active .slick-arrow {
+        top: 34%;
+    }
+    .slider-active .slick-next {
+        top: 50%;
+    }
     
+
 }
 
 /* Tablet desktop :768px. */
