@@ -42,12 +42,100 @@
 
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+    /* Menu */
+    .logo img {
+        margin-top: 9px;
+    }
+    .mobile-menu .mean-bar a {
+        top: -5px;
+    }
+
+    /* SLider */
+    .slider-content {
+        left: 8%;
+    }
+    .slider-content h2 {
+        font-size: 35px;
+        margin-bottom: 20px;
+        line-height: 40px;
+    }
+    .slider-content span {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .slider-active .slick-arrow {
+        top: 29%;
+        right: 7%;
+    }
+    .slider-active .slick-next {
+        top: 50%;
+    }
+
+    /* Introduction */
+    .introduction-text p {
+        padding: 0 0;
+    }
+
+    /* Support */
+    .support-text h3 {
+        font-size: 20px;
+    }
+
+    /* Our Mission */
+    .our-mission p {
+        padding-right: 0;
+    }
     
+    /* Our Vision */
+    .our-vision-area .section-title {
+        padding-left: 0;
+    }
+    .our-vision p {
+        padding-left: 0;
+    }
+
+    /* Blog */
+    .section-title h2 {
+        font-size: 34px;
+    }
+
 }
 
 /* small mobile :320px. */
 @media (max-width: 767px) {
+
+    /* Menu */
+    .logo img {
+        margin-top: 9px;
+    }
+    .mobile-menu .mean-bar a {
+        top: -5px;
+    }
     
+    /* Introduction */
+    .introduction-text p {
+        padding: 0 0;
+    }
+
+    /* Our Mission */
+    .our-mission p {
+        padding-right: 0;
+    }
+    
+    /* Our Vision */
+    .our-vision-area .section-title {
+        padding-left: 0;
+    }
+    .our-vision p {
+        padding-left: 0;
+    }
+
+    /* Footer */
+    .footer-head {
+        margin-top: 30px;
+    }
+
+
 }
 
 /* Large Mobile :480px. */
