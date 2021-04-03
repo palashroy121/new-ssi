@@ -104,6 +104,16 @@
 /* small mobile :320px. */
 @media (max-width: 767px) {
 
+    /* Button */
+    .s-btn {
+        height: 40px;
+        padding: 0 27px;
+        line-height: 40px;
+    }
+    .btn-round {
+        font-size: 20px;
+    }
+
     /* Menu */
     .logo img {
         margin-top: 9px;
@@ -111,18 +121,62 @@
     .mobile-menu .mean-bar a {
         top: -5px;
     }
+
+    /* Slider */
+    .slider-content {
+        top: 10%;
+        left: 3%;
+    }
+    .slider-content span {
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+    .slider-content h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+        line-height: 26px;
+    }
     
     /* Introduction */
+    .introduction-area {
+        padding-top: 50px;
+    }
     .introduction-text p {
         padding: 0 0;
     }
+    .introduction-text p {
+        font-size: 16px;
+        margin-bottom: 15px;
+        line-height: 1.6;
+    }
+
+    /* Section Title */
+    .section-title {
+        margin-bottom: 15px;
+    }
+    .section-title h2 {
+        font-size: 30px;
+    }
+    .section-title img {
+        margin-bottom: 15px;
+    }
 
     /* Our Mission */
+    .our-mission-area {
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
     .our-mission p {
         padding-right: 0;
+        font-size: 16px;
+        margin-bottom: 15px;
+        line-height: 1.6;
     }
     
     /* Our Vision */
+    .our-vision-area {
+        margin-bottom: 50px;
+    }
     .our-vision-area .section-title {
         padding-left: 0;
     }
@@ -130,7 +184,114 @@
         padding-left: 0;
     }
 
+    /* Donate */
+    .donate-box h2 {
+        font-size: 30px;
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+    }
+
+    /* Support */
+    .support-area {
+        padding-top: 50px;
+        margin-bottom: 20px;
+    }
+    .support-icon::after {
+        width: 50px;
+        height: 50px;
+        left: -7px;
+    }
+    .support-icon::before {
+        width: 50px;
+        height: 50px;
+        left: 15px;
+    }
+    .support-box:hover .support-icon::before {
+        left: 10px;
+    }
+    .support-box:hover .support-icon::after {
+        left: -6px;
+    }
+
+    /* Contact */
+    .page-header {
+        height: 150px;
+    }
+    .page-breadcrumb {
+        margin-bottom: 10px;
+    }
+    .page-header-title h1 {
+        font-size: 30px;
+        letter-spacing: 0.3rem;
+    }
+    .contact-page-area {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .contact-box .contact-icon i {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .contact-box .contact-text h4 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .contact-box .contact-text p {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .contact-box {
+        padding: 105px 30px;
+    }
+    .contact-map {
+        margin-top: 20px;
+    }
+    .contact-map iframe {
+        height: 250px;
+    }
+
+    /* Daily Life Page */
+    .daily-life-area {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    /* Outside Page */
+    .outside-area {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    /* About Us Page */
+    .about-page-area {
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .about-title h2 {
+        font-size: 24px;
+        line-height: 1.3;
+        margin-bottom: 10px;
+        margin-left: 30px;
+    }
+    .about-title h2::before {
+        width: 15px;
+        height: 15px;
+        left: -30px;
+    }
+    .about-title h2::after {
+        width: 15px;
+        height: 15px;
+        left: -23px;
+    }
+    .about-others {
+        margin-bottom: 30px;
+    }
+
     /* Footer */
+    .footer-area {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
     .footer-head {
         margin-top: 30px;
     }

@@ -604,6 +604,79 @@ label {
     bottom: 30px;
 }
 
+/* Donate Page */
+.donate-page h2 {
+    color: #255946;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+/* Daily Life Page */
+.daily-life-img img {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* About Us Page */
+.about-title h2 {
+    color: #255946;
+    font-size: 36px;
+    margin-bottom: 15px;
+    position: relative;
+    margin-left: 35px;
+}
+.about-title h2::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #afe3ce;
+    position: absolute;
+    top: 4px;
+    left: -35px;
+}
+.about-title h2::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: #d8ece2;
+    position: absolute;
+    top: 11px;
+    left: -27px;
+}
+.about-title p {
+    font-size: 18px;
+}
+.about-title ul li {
+    display: flex;
+    margin-bottom: 10px;
+    color: #848b8a;
+}
+.about-title ul li .fa-check {
+    width: 20px;
+    height: 20px;
+    background: #25594659;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 12px;
+    overflow: hidden;
+    display: inline-table;
+}
+
+/* Outside Page */
+.outside-title h2 {
+    font-size: 23px;
+}
+.outside-title h2::before {
+    width: 15px;
+    height: 15px;
+}
+.outside-title h2::after {
+    width: 15px;
+    height: 15px;
+}
+
 /* Contact Page */
 .contact-box {
     min-height: 350px;
@@ -841,6 +914,8 @@ label {
 .page-header {
 	background: url(../img/blog/page-header-bg.jpg) no-repeat;
     height: 330px;
+    background-size: cover;
+    background-position: center center;
 }
 .page-breadcrumb ul li {
 	display: inline-block;
