@@ -610,6 +610,23 @@ label {
     font-size: 50px;
     letter-spacing: 5px;
 }
+.input-form {
+    margin: 20px 0;
+}
+.input-form h4 {
+    color: #255946;
+    font-size: 22px;
+}
+.input-form span {
+    color: #fb0303;
+}
+.input-form input {
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    background: #e2e2e2;
+}
 
 /* Daily Life Page */
 .daily-life-img img {
