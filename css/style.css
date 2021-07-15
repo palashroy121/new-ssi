@@ -627,6 +627,36 @@ label {
     outline: none;
     background: #e2e2e2;
 }
+.check-box {
+    color: #255946;
+    font-size: 22px;
+    margin: 20px 0;
+}
+.check-box input[type="checkbox"] {
+    width: 19px;
+    height: 19px;
+    margin-right: 10px;
+}
+.btn-disabled:disabled, .btn-disabled[disabled] {
+    border: 1px solid #999999;
+    background-color: #e2e2e2;
+    color: #666666;
+    cursor: no-drop;
+}
+.terms-refund p {
+    font-size: 19px;
+    padding: 0 100px;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    text-align: justify;
+}
+.terms-refund h4 {
+    color: #255946;
+    font-size: 26px;
+    line-height: 1.4;
+    padding: 0 100px;
+    margin-top: 40px;
+}
 
 /* Daily Life Page */
 .daily-life-img img {

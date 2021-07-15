@@ -270,6 +270,22 @@
     .input-form input {
         padding: 10px 15px;
     }
+    .check-box {
+        font-size: 19px;
+        margin: 10px 0;
+    }
+    .terms-refund p{
+        font-size: 19px;
+        margin-bottom: 15px;
+        line-height: 1.6;
+        padding: 0;
+    } 
+    .terms-refund h4 {
+        font-size: 22px;
+        padding: 0;
+        line-height: 1.4;
+        margin-top: 20px;
+    }
 
     /* Daily Life Page */
     .daily-life-area {
