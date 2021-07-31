@@ -142,7 +142,7 @@ $('.footer-brand-active').slick({
   });
 
 /* magnificPopup img view */
-$('.popup-image').magnificPopup({
+$('.gallery-popup').magnificPopup({
 	type: 'image',
 	gallery: {
 	  enabled: true
